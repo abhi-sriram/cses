@@ -3,3 +3,11 @@ Consider an algorithm that takes as input a positive integer n. If n is even, th
 3→10→5→16→8→4→2→1
 '''
 
+n = int(input())
+while(n>1):
+    print(n,end=' ')
+    if(n%2==0):
+        n = n//2
+    else:
+        n = n*3+1
+print(n,end=' ')
